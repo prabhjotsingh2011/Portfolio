@@ -28,12 +28,12 @@ function HomePage() {
                     </p>
                 <div className="icons">
                     {/* <a href="#" className="icon i-facebook"><FacebookIcon /></a> */}
-                    <a href="https://www.linkedin.com/in/prabhjot-singh-5a5b241b9/" className="icon i-LinkedIn"><LinkedInIcon /></a>
-                    <a href="https://github.com/prabhjotsingh2011" className="icon i-github"><GithubIcon /></a>
+                    <a href="https://www.linkedin.com/in/prabhjot-singh-5a5b241b9/" className="icon i-LinkedIn" target="_blank"><LinkedInIcon /></a>
+                    <a href="https://github.com/prabhjotsingh2011" className="icon i-github" target="_blank"><GithubIcon /></a>
                     {/* <a href="#" className="icon i-youtube"><YoutueIcon /></a> */}
-                    <a href="https://www.codechef.com/users/prabhjot_2011" className="icon i-codechef"><Icon icon="simple-icons:codechef" inline={true} /></a>
+                    <a href="https://www.codechef.com/users/prabhjot_2011" className="icon i-codechef" target="_blank"><Icon icon="simple-icons:codechef" inline={true} /></a>
 
-                    <a href="#" className=""></a>
+                    <a href="#" className="" target="_blank"></a>
                 </div>
             </div>
         </HomePageStyled>

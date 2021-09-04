@@ -14,10 +14,10 @@ function BlogsPage() {
                         blogs.map((blog)=>{
                             return <div key={blog.id} className={'blog-item'}>
                                 <div className="image">
-                                    <a href="http://www.google.com"><img src={blog.image} alt=""/></a>
+                                    <a href="http://www.google.com" target="_blank"><img src={blog.image} alt=""/></a>
                                 </div>
                                 <div className="title">
-                                    <a href={blog.link}>
+                                    <a href={blog.link} target="_blank">
                                         {blog.title}
                                     </a>
                                 </div>
