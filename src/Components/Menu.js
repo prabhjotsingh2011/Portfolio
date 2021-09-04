@@ -18,11 +18,11 @@ function Menu({menuItem}) {
                                             <GitHub />
                                         </a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href={item.link2}>
                                             <Pinterest />
                                         </a>
-                                    </li>
+                                    </li> */}
                                 </ul>
                             </div>
                             <h6>{item.title}</h6>

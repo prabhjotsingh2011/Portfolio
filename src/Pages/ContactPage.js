@@ -56,20 +56,20 @@ function ContactPage() {
                         <ContactItem
                             icon={Phone}
                             title={'Phone'}
-                            contact1={'+778885845455'}
-                            contact2={'+778885845455'}
+                            contact1={'+91-7004335954'}
+                            contact2={''}
                         />
                         <ContactItem
                             icon={Email}
-                            title={'Phone'}
-                            contact1={'+778885845455'}
-                            contact2={'+778885845455'}
+                            title={'Email'}
+                            contact1={'psingh20112002@gmail.com'}
+                            contact2={''}
                         />
                         <ContactItem
                             icon={Location}
-                            title={'Phone'}
-                            contact1={'+778885845455'}
-                            contact2={'+778885845455'}
+                            title={'Location'}
+                            contact1={'#25 sunny enclave'}
+                            contact2={'Kharar, Mohali, Punjab'}
                         />
                     </div>
             </div>

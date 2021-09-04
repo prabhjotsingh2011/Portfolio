@@ -73,11 +73,11 @@ function App() {
         
 
         <Switching>
-          <Route exact path="/Portfolio"> <HomePage/> </Route> 
+          <Route exact path="/"> <HomePage/> </Route> 
           <Route exact path="/about"> <AboutPage/> </Route> 
           <Route exact path="/resume"> <ResumePage/> </Route> 
           <Route exact path="/portfolios"> <PortfolioPage/> </Route> 
-          <Route exact path="/blogs"> <BlogPage/> </Route> 
+          {/* <Route exact path="/blogs"> <BlogPage/> </Route>  */}
           <Route exact path="/contact"> <ContactPage/> </Route> 
         </Switching>
 

@@ -7,13 +7,13 @@ function Skills() {
     return (
         <SkillsStyled>
            
-                <Title title={'my skills'} span={'resume'} />
+                <Title title={'my skills'} span={'my skills'} />
                 <InnerLayout>
                     <div className="skills">
                         <ProgressBar
                             title={'HTML 5'}
-                            width={'70%'}
-                            text={'70%'}
+                            width={'95%'}
+                            text={'95%'}
                         />
                         <ProgressBar
                             title={'CSS'}
@@ -22,18 +22,48 @@ function Skills() {
                         />
                         <ProgressBar
                             title={'JAVASCRIPT'}
-                            width={'50%'}
-                            text={'50%'}
+                            width={'85%'}
+                            text={'85%'}
+                        />
+                        <ProgressBar
+                            title={'C/C++'}
+                            width={'90%'}
+                            text={'90%'}
                         />
                         <ProgressBar
                             title={'React'}
-                            width={'40%'}
-                            text={'40%'}
+                            width={'60%'}
+                            text={'60%'}
                         />
                         <ProgressBar
                             title={'Bootstrap'}
                             width={'70%'}
                             text={'70%'}
+                        />
+                        <ProgressBar
+                            title={'Tailwind CSS'}
+                            width={'75%'}
+                            text={'75%'}
+                        />
+                        <ProgressBar
+                            title={'Node JS'}
+                            width={'70%'}
+                            text={'70%'}
+                        />
+                        <ProgressBar
+                            title={'Express JS'}
+                            width={'70%'}
+                            text={'70%'}
+                        />
+                        <ProgressBar
+                            title={'MongoDB/ Mongoose'}
+                            width={'70%'}
+                            text={'70%'}
+                        />
+                        <ProgressBar
+                            title={'React Native'}
+                            width={'10%'}
+                            text={'10%'}
                         />
                     </div>
                 </InnerLayout>

@@ -21,20 +21,20 @@ function ServicesSection() {
                
                     <ServiceCard
                      image={design} 
-                     title={'Web Design'} 
-                     paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quisquam sunt ipsam eum? Exercitationem iste ullam nisi optio praesentium earum!'}
+                     title={'Front-end Development'} 
+                     paragraph={'Creative and Innovative Front End Developer. Proficient in HTML, CSS, JavaScript along with their modern libraries and frameworks like Bootstrap, Tailwind CSS '}
 
                      />
                     <ServiceCard
                      image={intelligence} 
-                     title={'artifitial intellligence'} 
-                     paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quisquam sunt ipsam eum? Exercitationem iste ullam nisi optio praesentium earum!'}
+                     title={'Back-End Development'} 
+                     paragraph={'Good knowledge over backend languages and frame work like NODE and express, even worked with MongoDB. Knowldge of creating RESTfull APIs. '}
 
                      />
                     <ServiceCard
                      image={gamedev} 
-                     title={'Game Development'} 
-                     paragraph={'Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga quisquam sunt ipsam eum? Exercitationem iste ullam nisi optio praesentium earum!'}
+                     title={'Native APP Development'} 
+                     paragraph={"In the learning phase of native app development. Recently started with react native for development. Soon I'll be working in a project"}
 
                      />
                 </div>

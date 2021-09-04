@@ -2,7 +2,8 @@ import React from 'react';
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
 import avatar from '../images/avatar.jpg';
-    
+import awtar from '../images/awtar.jpeg';
+
 
 
 
@@ -10,7 +11,7 @@ function Navigation() {
     return (
         <NavigationStyled>
             <div className="avatar">
-                <img src={avatar} alt="" />
+                <img src={awtar} alt="" />
             </div>
             <ul className="nav-items">
                 <li className="nav-item">
@@ -25,16 +26,16 @@ function Navigation() {
                 <li className="nav-item">
                     <NavLink to="/portfolios" exact activeClassName="active-class">portfolios</NavLink>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <NavLink to="/blogs" exact activeClassName="active-class">Blogs</NavLink>
-                </li>
+                </li> */}
                 <li className="nav-item">
                     <NavLink to="/contact" exact activeClassName="active-class">Contact</NavLink>
                 </li>
             </ul>
 
             <footer className="footer">
-                <p> @2021 My portfolio Website</p>
+                <p> Prabhjot's Portfolio @2021</p>
             </footer>
         </NavigationStyled>
     )

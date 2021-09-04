@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import resume from '../images/resume.jpg';
+import resume from '../images/resume.jpeg';
 import PrimaryButton from './PrimaryButton';
 
 function ImageSection() {
@@ -11,10 +11,13 @@ function ImageSection() {
             </div>
             <div className="right-content">
 
-                    <h4>I am <span>Lorem Ipsome </span></h4>
+                    <h4>I am <span>Prabhjot </span></h4>
                
                 <p className="paragraph">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque reiciendis nam, tenetur, minima enim quasi, in fugiat delectus vel itaque assumenda eius incidunt amet totam culpa? Maiores earum officia facilis error unde omnis.
+                Innovative optimized solution seeker, Problem solver. Proficient in C/C++. TECH stack : MERN . Excited to be at the deployment phase of my new career as a web developer.  I can adapt onto any
+                    technology rapidly making myself flexible upon
+                    any tech stack. A passionate, diligent person
+                    who wants to learn continuously.
                 </p>
                 <div className="about-info">
                     <div className="info-title">
@@ -23,15 +26,15 @@ function ImageSection() {
                         <p>Nationality</p>
                         <p>Languages</p>
                         <p>Location</p>
-                        <p>Service</p>
+                        <p>Open to</p>
                     </div>
                     <div className="info">
-                        <p>:Lorem Ipsum</p>
-                        <p>356</p>
+                        <p>Prabhjot Singh</p>
+                        <p>18</p>
                         <p>Indian</p>
                         <p>Hindi,English,Punjabi</p>
-                        <p>Punjab,India</p>
-                        <p>Freelance</p>
+                        <p>sunny enclave,Mohali,Punjab  </p>
+                        <p> work</p>
                     </div>
                 </div>
                 <PrimaryButton title={"download CV"}/>
