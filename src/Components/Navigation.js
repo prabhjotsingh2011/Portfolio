@@ -1,7 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 import {NavLink} from 'react-router-dom';
-import avatar from '../images/avatar.jpg';
 import awtar from '../images/awtar.jpeg';
 
 

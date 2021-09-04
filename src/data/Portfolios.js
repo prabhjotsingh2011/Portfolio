@@ -8,6 +8,7 @@ import jokes from '../images/portImages/jokes.png';
 import corona from '../images/portImages/corona.png';
 import accordian from '../images/portImages/accordian.png';
 import fresh from '../images/portImages/fresh.png';
+import port from '../images/portImages/port.png';
 
 
 const portfolios = [
@@ -23,7 +24,7 @@ const portfolios = [
     {
         id: 2,
         category: 'React JS',
-        image: img3,
+        image: port,
         link1: 'https://github.com/prabhjotsingh2011/Portfolio',
         link2: 'https://www.google.com',
         title: 'Portfolio',
